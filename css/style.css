@@ -135,10 +135,6 @@ img {
     .container{
         width: 100%;
     }
-
-    body{
-        background-color: green;
-    }
 }
 
 /*telefono*/
@@ -177,7 +173,4 @@ img {
         padding-bottom: 4rem;
     }
 
-    body{
-        background-color: red;
-    }
 }
