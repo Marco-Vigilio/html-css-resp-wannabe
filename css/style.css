@@ -166,7 +166,7 @@ img {
     }
 
     section.steps>div.container>div.row>div.col:nth-child(2){
-        padding: 4rem 0;
+        padding: 4rem 1rem;
     }
 
     section.why-us>div.container>div.row>div.col-left>img{
