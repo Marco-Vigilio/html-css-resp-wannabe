@@ -145,7 +145,37 @@ img {
 
 @media screen and (max-width:480px){
 
-    
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
+
+    section.lessons>div.container>div.row>div.col:first-child{
+        padding-bottom: 4rem;
+    }
+
+    section.steps>div.container>div.row>div.col:nth-child(2){
+        padding: 4rem 0;
+    }
+
+    section.why-us>div.container>div.row>div.col-left>img{
+        padding-bottom: 4rem;
+    }
 
     body{
         background-color: red;
